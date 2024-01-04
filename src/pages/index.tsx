@@ -20,11 +20,7 @@ function Home() {
     fetchData();
   }, []);
 
-
-  
-
   useEffect(() => {
-
     const filterData = () => {
       const filtered = data.filter((announcement) =>
         announcement.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
