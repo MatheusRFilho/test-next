@@ -107,7 +107,7 @@ function Home() {
               <dd className="text-gray-500 dark:text-gray-400">Total de unidades vendidas</dd>
             </div>
           <div className="flex flex-col">
-              <dt className="mb-2 text-3xl font-extrabold">{formatNumber(averageTicket)}</dt>
+              <dt className="mb-2 text-3xl font-extrabold">{formatNumber(averageTicket || 0)}</dt>
               <dd className="text-gray-500 dark:text-gray-400">Valor médio de vendas (R$)</dd>
             </div>
             <div className="flex flex-col">
